@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(to right , #30B9E7,#1AD9A6);
+}
+h1{
+    font-family: sans-serif;
+    color: yellow;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.box{
+    height: 280px;
+    width: 510px;
+    border: 2px solid #1AD9A6;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 2px 3px 10.3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to right,#20C2C0, #5292A8);
+   border-radius: 10px;
+}
+
+div.common label{
+    margin-right:100px ;
+    font-size: 20px;
+    font-weight: bolder;
+}
+div.celsi input{
+    margin-left: 27px;
+}
+div.kelvin input{
+    margin-left: 38px;
+}
+div.common input {
+    float: right;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    padding: 4px;
+    border: 1px solid black;
+}
